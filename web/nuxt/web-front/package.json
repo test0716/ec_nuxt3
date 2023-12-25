@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.2",
+    "babel-preset-env": "^1.7.0",
+    "consola": "^3.1.0",
+    "nuxt": "^3.4.1"
+  },
+  "dependencies": {
+    "@nuxt/cli": "^2.16.3",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/tailwindcss": "^6.6.6",
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue": "^2.23.1",
+    "cookie-universal-nuxt": "^2.2.2",
+    "eslint": "^8.38.0",
+    "mysql": "^2.18.1",
+    "prettier": "^2.8.7",
+    "sass": "^1.62.0",
+    "vue": "^3.2.47",
+    "vuetify": "^3.1.15",
+    "vuex": "^4.0.2"
+  }
+}

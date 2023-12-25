@@ -1,0 +1,28 @@
+.search {
+  border: 1px solid #999;
+  padding: 3px 10px;
+  border-radius: 3px;
+  height: 2.2em;
+  overflow: hidden;
+  outline: 0;
+  height: 2em;
+  vertical-align: middle;
+}
+.search:focus {
+  outline: none;
+}
+.searchButton {
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 1em;
+  border: none;
+  background: #3879d9;
+  border: 1px solid #3879d9;
+  border-radius: 3px;
+  color: #fff;
+  outline: none;
+  width: 3.5em;
+  height: 2em;
+  display: inline-block;
+  vertical-align: middle;
+}
